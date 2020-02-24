@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 body {
   background-color: rgb(214, 203, 203) !important;
 }
-/* header styling */
 ._header {
   display: flex;
   flex-direction: row;
@@ -48,6 +48,10 @@ body {
 }
 .nav-link {
   color: white !important;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  font-size: 14px;
 }
 #_active {
   color: rgb(5, 216, 140) !important;
@@ -305,6 +309,10 @@ body {
   width: 32%;
   text-align: center;
   font-weight: bold;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  /* font-size: 12px; */
 }
 
 .active {
@@ -327,6 +335,10 @@ body {
   font-size: 12px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  /* font-size: 14px; */
 }
 ._ranking_list {
   display: flex;
@@ -363,10 +375,14 @@ body {
 }
 .left_widget1 .title {
   background-color: rgb(14, 68, 69);
-  padding: 10px;
   color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  padding: 10px; 
+  /* font-size: 14px; */
 }
 .trand_item {
   display: flex;
@@ -467,6 +483,7 @@ body {
   color: black !important;
 }
 #pills-tab .nav-item .nav-link {
+  font-size: 10px !important;
   color: black !important;
 }
 
@@ -489,6 +506,7 @@ body {
 .card-text {
   font-size: 12px;
   color: rgb(82, 80, 80);
+  
 }
 
 .news_updates {
@@ -530,8 +548,11 @@ body {
   justify-content: space-between;
   padding: 10px;
   padding-bottom: 0px;
-  font-size: 10px;
+  font-size: 12px;
   margin: 0px !important;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
 }
 ._horezentolPosts {
   background-color: rgb(25, 94, 95);
@@ -683,6 +704,10 @@ body {
 }
 ._newsletter h5 {
   font-size: 1.5vw !important;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  
 }
 @media only screen and (max-width: 360px) {
   ._newsletter {
