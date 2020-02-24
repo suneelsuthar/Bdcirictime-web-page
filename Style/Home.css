@@ -14,6 +14,10 @@ body {
 }
 ._time {
   letter-spacing: 1px;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
+  font-size: 12px;
 }
 ._lan {
 }
