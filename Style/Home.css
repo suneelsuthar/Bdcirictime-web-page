@@ -575,6 +575,7 @@ body {
   text-align: center;
   padding: 5px;
   margin: 0px;
+  overflow: hidden;
 }
 ._post_headeing {
   margin: 0px;
@@ -721,6 +722,15 @@ body {
     border-radius: 5px;
     padding: 10px;
     flex-direction: column;
+  }
+  ._verticalPosts{
+    height: 220px;
+  }
+  ._verticalPosts img {
+    max-height: 220px !important;
+    width: 150px;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
   }
   ._newsletter h5 {
     font-size: 14px !important;
