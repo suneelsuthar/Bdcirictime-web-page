@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="./Style/Home.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <div id="_container">
+      <!-- header -->
+      <div class="_header">
+        <div class="_time">05, NOVEMBER 2019 11:00:00 PM</div>
+        <div class="_lan">
+          <select name="lan" id="lan">
+            <option value="enlish">ENGILSH</option>
+            <option value="enlish">URDU</option>
+          </select>
+          <button>LOGIN</button>
+        </div>
+      </div>
+      <!-- logo section -->
+      <div class="_logosection">
+        <img src="./assests/logo.png" alt="log" id="_logo" />
+      </div>
+      <!-- navbar -->
+      <div class="_navbar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#" id="_active">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LIVE SCORES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">INTERNATIONAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PHOTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FIXTURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">STATS</a>
+              </li>
+            </ul>
+            <form>
+              <div class="_inputDiv">
+                <input type="search" placeholder="search...." />
+                <div class="_searchIcon">
+                  <img src="./assests/search.svg" alt="" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <!-- slider styling -->
+      <div class="_sliderSection">
+        <div class="container-fluid">
+          <div
+            id="carouselExample"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="9000"
+          >
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+              <div class="carousel-item col-md-3  active">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-3  ">
+                <div class="panel panel-default">
+                  <!-- item 2 -->
+                  <div class="_item">
+                    <p>WORLD CUP MATCH 34</p>
+                    <div class="team_icons">
+                      <img src="./assests/bangladesh.png" alt="Bangladesh" />
+                      <div>VS</div>
+                      <img src="./assests/india.png" alt="India" />
+                    </div>
+
+                    <div class="team_icons">
+                      <div>
+                        <span>BAN 300/5</span>
+                        <span>50 OVERS</span>
+                      </div>
+                      <div class="verticalLine"></div>
+                      <div>
+                        <span>IND 290/5</span>
+                        <span>48.4 OVERS</span>
+                      </div>
+                    </div>
+
+                    <p>MATCH IS COMING..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExample"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next text-faded"
+              href="#carouselExample"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- middile section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3 widget1">
+            <!-- left widgets -->
+            <div class="left_widget1" style="margin-bottom: 10px;">
+              <div class="title">Trading Now</div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="40px"
+                  width="40px"
+                />
+                <span>Lorem Ipsum is a simply dummy text to print ...</span>
+              </div>
+
+              <div class="trand_item" style="border: none;">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="40px"
+                  width="40px"
+                />
+                <span>Lorem Ipsum is a simply dummy text to print ...</span>
+              </div>
+            </div>
+
+            <!-- left widget 2 -->
+            <div class="left_widget1" style="margin-bottom: 10px;">
+              <div class="title">Recent Series</div>
+              <div
+                class="trand_item"
+                style="border-bottom: 2px solid rgb(66, 172, 175);"
+              >
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>India Vs Bangladesh</span>
+              </div>
+
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>NCL</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Australia vs Pakistan</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>New zealand vs England</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Afghanistan vs West Indies</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>WI Women vs IND Women</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Abu Dhubi TID</span>
+              </div>
+
+              <div class="trand_item" style="border: none;">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>ICC Women's Championship</span>
+              </div>
+            </div>
+
+            <!-- left widget 3 -->
+            <div class="left_widget1" style="margin-bottom: 10px;">
+              <div class="title">Players Data</div>
+
+              <div
+                class="_inputDiv"
+                style="width: 90%;margin: auto;margin-top: 10px;"
+              >
+                <input
+                  type="search"
+                  placeholder="search...."
+                  style="border: 2px solid rgb(46, 124, 126); width:100%;height: 30px;"
+                />
+                <div class="_searchIcon">
+                  <img src="./assests/search.svg" alt="" width="40px" />
+                </div>
+              </div>
+              <div
+                class="trand_item"
+                style="border-bottom: 2px solid rgb(66, 172, 175);"
+              >
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Shakib Al Hasan</span>
+              </div>
+
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Muhammad Hafeez</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Muhammadullah</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>SPD Smith</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>BA Stokes</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>SL Malinga</span>
+              </div>
+              <div class="trand_item">
+                <img
+                  src="https://www.bdcrictime.com/wp-content/uploads/2017/05/image-14699.jpg"
+                  height="20px"
+                  width="20px"
+                />
+                <span>Abu Dhubi TID</span>
+              </div>
+
+              <p class="_seemore">see more Players Data</p>
+            </div>
+          </div>
+
+          <!-- post section -->
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 posts"
+            style="padding: 0px !important;"
+          >
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >HeadLines</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Latest News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-contact"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                  >Popular News</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <!-- headline tab -->
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div class="card" style="width: 100%;margin-bottom: 10px;">
+                  <img
+                    class="card-img-top"
+                    src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                    alt="Card image cap"
+                    height="230px"
+                  />
+                  <div class="card-body">
+                    <div>LORAM IPSUM DOLOR SIT AMET , CONSE</div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Natus voluptas suscipit molestias harum repellendus ad!
+                      Velit omnis repellat cumque aperiam voluptatem alias
+                      recusandae aliquid. Quae praesentium similique
+                      perspiciatis facilis laboriosam..
+                      <span class="_seemore" style="font-weight: normal;"
+                        >Read ful Article</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- <<<<<<<<<>>>>>>> -->
+                <div id="_section2">
+                  <header class="_postsTitle">
+                    <div>
+                      <b>NEWS UPDATED</b>
+                      <p style="margin: 0px;">10 November 2019</p>
+                      <p></p>
+                    </div>
+                    <b>See All</b>
+                  </header>
+                  <div class="news_updates">
+                    <!-- card1 -->
+                    <div class="_horezentolPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <button class="readmore_btn">READ MORE</button>
+                      </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="_horezentolPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <button class="readmore_btn">READ MORE</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post 1 -->
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- post 2 -->
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p style="text-align: center;">
+                    <button class="_loadmore">LOAD MORE</button>
+                  </p>
+                </div>
+                <!-- bangladesh vs india -->
+                <div class="_matches_section">
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- bangladesh vs india -->
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- bangladesh vs india -->
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- bangladesh vs india -->
+                  <div class="news_updates">
+                    <div class="_verticalPosts">
+                      <img
+                        class="card-img-top"
+                        src="https://www.bdcrictime.com/wp-content/uploads/2018/07/Mashrafe-explains-Tamim-Shakibs-slow-approach.jpg"
+                        alt="Card image cap"
+                        height="230px"
+                      />
+                      <div>
+                        <p class="_post_headeing">
+                          LOREM IPSUM DOLOR SIT AMET CONSECTETUR
+                        </p>
+                        <p class="_post_detail" style="text-align: left;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Rerum culpa dicta accusamus reiciendis
+                          perferendis repellat voluptate sit, animi consequatur
+                          sint praesentium maxime modi non sapiente explicabo
+                          cum itaque, ea temporibus.
+                        </p>
+                        <p style="text-align: center;">
+                          <button class="readmore_btn" style="width: 90%;">
+                            READ MORE
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FEATURED NEWS -->
+                <div class="_featuredNews">
+                  <header class="_postsTitle">
+                    <div>
+                      <b>FEATURED NEWS</b>
+                    </div>
+                    <b>See All</b>
+                  </header>
+
+                  <div class="container">
+                    <!-- row 1 -->
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                          <img
+                            src="https://www.bdcrictime.com/wp-content/uploads/2017/10/Ban-A.jpg"
+                            class="card-img-top"
+                            alt="..."
+                            height="150px"
+                          />
+                          <p
+                            class="card-text"
+                            style="padding: 5px;margin-bottom: 0px;padding-bottom: 0px;"
+                          >
+                            <b>LOREM IPSUM DOLOR SIT AMIT</b>
+                          </p>
+                          <span class="_date">10 NOV 2019</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <<<<<<<<<>>>>>>>> -->
+              </div>
+
+              <!-- latest news tab -->
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                Latest News...
+              </div>
+              <!-- popular news tab -->
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                Popular News...
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+
+          <!-- right side widget -->
+          <div class="col-sm-12 col-md-3 col-lg-3 widget2">
+            <!-- right widgt 1 -->
+            <div style="margin-bottom:10px">
+              <div class="icc_ranking">ICC TEAM RANKING</div>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item _tabs">
+                  <a
+                    class="nav-link active"
+                    id="home-tab"
+                    data-toggle="tab"
+                    href="#home"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >ODI</a
+                  >
+                </li>
+                <li class="nav-item _tabs">
+                  <a
+                    class="nav-link"
+                    id="profile-tab"
+                    data-toggle="tab"
+                    href="#profile"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                    >T20</a
+                  >
+                </li>
+                <li class="nav-item _tabs">
+                  <a
+                    class="nav-link"
+                    id="contact-tab"
+                    data-toggle="tab"
+                    href="#contact"
+                    role="tab"
+                    aria-controls="contact"
+                    aria-selected="false"
+                    >TEST</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <p class="_ranking_list"><b>Pos</b><b>Tam</b><b>Rating</b></p>
+                  <p class="_ranking_list">
+                    <span>Pos</span><span>Tam</span><span>Rating</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>1</span><span>Pakistan</span><span>270</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>2</span><span>Australia</span><span>269</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>3</span><span>England</span><span>265</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>4</span><span>South Africa</span><span>262</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>5</span><span>India</span><span>260</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>6</span><span>New zealand</span><span>252</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>7</span><span>Srilinka</span><span>238</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>8</span><span>Afghanistan</span><span>235</span>
+                  </p>
+                  <p class="_ranking_list">
+                    <span>9</span><span>Bangladesh</span><span>227</span>
+                  </p>
+                  <p class="_ranking_list" style="border-bottom: 0px;">
+                    <span>10</span><span>West Indies</span><span>224</span>
+                  </p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  b
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="contact"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  c
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <nav>
+                <div class="icc_ranking">Most Popular</div>
+                <div
+                  class="nav nav-tabs Popular_tabs"
+                  id="nav-tab"
+                  role="tablist"
+                >
+                  <a
+                    class="nav-item nav-link active"
+                    id="nav-home-tab"
+                    data-toggle="tab"
+                    href="#nav-home"
+                    role="tab"
+                    aria-controls="nav-home"
+                    aria-selected="true"
+                    >Today</a
+                  >
+                  <a
+                    class="nav-item nav-link"
+                    id="nav-profile-tab"
+                    data-toggle="tab"
+                    href="#nav-profile"
+                    role="tab"
+                    aria-controls="nav-profile"
+                    aria-selected="false"
+                    >Last 7 Days</a
+                  >
+                  <a
+                    class="nav-item nav-link"
+                    id="nav-contact-tab"
+                    data-toggle="tab"
+                    href="#nav-contact"
+                    role="tab"
+                    aria-controls="nav-contact"
+                    aria-selected="false"
+                    >Last 30 Days</a
+                  >
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <!-- tab1 -->
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-home"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-tab"
+                >
+                  <div class="popularList_item">
+                    <label>1</label>
+                    <div>
+                      Lorem Lpsum is a simply document to test to print and type
+                      testing..
+                    </div>
+                  </div>
+
+                  <div class="popularList_item">
+                    <label>2</label>
+                    <div>
+                      Lorem Lpsum is a simply document to test to print and type
+                      testing..
+                    </div>
+                  </div>
+
+                  <div class="popularList_item">
+                    <label>3</label>
+                    <div>
+                      Lorem Lpsum is a simply document to test to print and type
+                      testing..
+                    </div>
+                  </div>
+
+                  <div class="popularList_item">
+                    <label>4</label>
+                    <div>
+                      Lorem Lpsum is a simply document to test to print and type
+                      testing..
+                    </div>
+                  </div>
+
+                  <div class="popularList_item" style="border-bottom: 0px;">
+                    <label>5</label>
+                    <div>
+                      Lorem Lpsum is a simply document to test to print and type
+                      testing..
+                    </div>
+                  </div>
+                </div>
+                <!-- tab2 -->
+                <div
+                  class="tab-pane fade"
+                  id="nav-profile"
+                  role="tabpanel"
+                  aria-labelledby="nav-profile-tab"
+                >
+                  2
+                </div>
+                <!-- tab3 -->
+                <div
+                  class="tab-pane fade"
+                  id="nav-contact"
+                  role="tabpanel"
+                  aria-labelledby="nav-contact-tab"
+                >
+                  3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- news letter -->
+      <div class="_newsletter">
+        <h5>Subscribe to our NEWSLETTER</h5>
+        <div><input type="search"> <button>Subscribe</button></div>
+      </div>
+      <!-- footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <img src="./assests/logo.png" height="90px" width="150px" />
+              <p class="text-justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
+                amet eaque consectetur sed maxime culpa, minima itaque maiores
+                deserunt nulla eius? Minus repellendus unde nisi ducimus
+                deserunt qui earum officia.
+              </p>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-2 _unorderList">
+              <ul class="footer-links">
+                <li>
+                  <a href="http://scanfcode.com/category/c-language/">HOME</a>
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/category/front-end-development/"
+                    >LIVE SCORES</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/category/back-end-development/"
+                    >FIXTURES</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://scanfcode.com/category/java-programming-language/"
+                    >INTERNATIONAL</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/category/android/">BANGLADESH</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3 _unorderList">
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/"> </a></li>
+                <li><a href="http://scanfcode.com/contact/">PHOTOS</a></li>
+                <li>
+                  <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                    >STATS</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/privacy-policy/"
+                    >PRIVACY POLICY</a
+                  >
+                </li>
+                <li><a href="http://scanfcode.com/sitemap/">BLOGS</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">CONTACT US</a></li>
+
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 ">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"
+                  ><i class="fa fa-facebook" style="color: black;"></i
+                ></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+
+              <li>
+                <a class="pinterest" href="#"
+                  ><i class="fab fa-pinterest"></i></a>
+              </li>
+             
+              <button class="_footerBtns">CONTACT FORM ADVERTISING</button>
+              <button class="_footerBtns">BECAME A WRITER</button>
+
+            </ul>
+        
+          </div>
+          </div>
+
+        </div>
+      </div>
+          <div class="_copyright">
+                   &copy; Copyright Bdcrictime 2O19
+              
+            </div>
+      </footer>
+    </div>
+  </body>
+</html>
