@@ -580,7 +580,10 @@ body {
 ._post_headeing {
   margin: 0px;
   padding: 5px;
-  font-size: 15px;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  font-family: 'Russo One';
+  font-weight: normal !important;
 }
 #pills-tabContent {
   /* height: 2000px !important; */
