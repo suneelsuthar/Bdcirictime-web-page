@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Teko:300&display=swap');
 body {
   background-color: rgb(214, 203, 203) !important;
 }
 ._header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-color: rgb(14, 68, 69);
+  justify-content: space-around;
+  background-color: rgb(3, 60, 61);
   color: white;
   align-items: center;
   height: 35px;
@@ -14,28 +14,30 @@ body {
 }
 ._time {
   letter-spacing: 1px;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
   font-size: 12px;
+  margin-left: -10% !important;
 }
 ._lan {
+  margin-right: -10% !important;
 }
 ._lan select {
   color: white;
   border: none;
-  background-color: rgb(5, 27, 27);
+  background-color: rgb(3, 60, 61);
   border-radius: 3px;
 }
 ._lan button {
   color: white;
   border: none;
-  background-color: rgb(5, 27, 27);
+  background-color: rgb(3, 60, 61);
   border-radius: 3px;
 }
 #_logo {
-  height: 100px;
-  margin-left: 4%;
+  height: 80px;
+  margin-left: 15%;
 }
 @media only screen and (max-width: 600px) {
   ._time {
@@ -48,14 +50,20 @@ body {
 }
 /* navbar styling */
 ._navbar {
-  background-color: rgb(14, 68, 69);
+  background-color: rgb(3, 60, 61);
+  padding-left: 11%;
+  padding-right: 11%;
 }
 .nav-link {
   color: white !important;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ font-family: 'Teko';
+font-family: 'Russo One';
   font-weight: normal !important;
   font-size: 14px;
+}
+.nav-tabs .nav-link{
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 #_active {
   color: rgb(5, 216, 140) !important;
@@ -88,9 +96,10 @@ body {
   padding-right: 10px;
   font-size: 12px;
   height: 25px;
+  width: 210px;
 }
 ._searchIcon {
-  background-color: rgb(46, 124, 126) !important;
+  background-color: rgb(3, 60, 61) !important;
   margin-left: -25px;
   border-radius: 100px;
   padding: 4px;
@@ -101,8 +110,8 @@ body {
   align-items: center;
 }
 ._searchIcon img {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   right: 0;
 }
 
@@ -111,6 +120,13 @@ body {
   width: 100%;
   /* height: 170px; */
 }
+@media only screen and (max-width: 991px) {
+  ._navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
 /*  */
 @media (min-width: 768px) {
   /* show 3 items */
@@ -239,7 +255,7 @@ body {
 ._item {
   width: 300px;
   height: 130px;
-  background-color: rgb(5, 27, 27);
+  background-color: rgb(3, 60, 61);
   margin: 10px;
   color: white;
   text-align: center;
@@ -313,8 +329,8 @@ body {
   width: 32%;
   text-align: center;
   font-weight: bold;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
   /* font-size: 12px; */
 }
@@ -332,22 +348,22 @@ body {
   background-color: rgb(46, 124, 126) !important;
 }
 .icc_ranking {
-  background-color: rgb(14, 68, 69);
+  background-color: rgb(3, 60, 61);
   text-align: center;
   color: white;
   padding: 10px;
   font-size: 12px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
   /* font-size: 14px; */
 }
 ._ranking_list {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid rgb(66, 172, 175);
+  border-bottom: 2px solid rgb(109, 147, 144) !important;
   padding: 0px;
   padding: 5px;
   margin: 0px;
@@ -355,6 +371,16 @@ body {
   margin-right: 10px;
 
   /* padding: 5px; */
+}
+._matchesScore{
+  font-size: 20px;
+  font-weight: bold;
+}
+._matchcoming{
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
+  font-weight: normal !important;
+  font-size: 12px;
 }
 #myTabContent {
   /* height: 300px; */
@@ -378,21 +404,21 @@ body {
   background-color: white;
 }
 .left_widget1 .title {
-  background-color: rgb(14, 68, 69);
+  background-color: rgb(3, 60, 61);
   color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
-  padding: 10px; 
+  padding: 10px;
   /* font-size: 14px; */
 }
 .trand_item {
   display: flex;
   margin: 10px;
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(66, 172, 175);
+  border-bottom: 2px solid rgb(109, 147, 144) !important;
   font-size: 13px;
   align-items: center;
 }
@@ -440,7 +466,7 @@ body {
   margin-top: 0px !important;
   margin: 8px;
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(66, 172, 175);
+  border-bottom: 2px solid rgb(109, 147, 144) !important;
   font-size: 13px;
   align-items: center;
 }
@@ -494,8 +520,8 @@ body {
 #pills-tab .nav-item .active {
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
-  background-color: rgb(14, 68, 69);
-  border: 1px solid rgb(14, 68, 69) !important;
+  background-color: rgb(46, 124, 126);
+  border: 1px solid rgb(46, 124, 126) !important;
   color: white !important;
   height: 30px;
   display: flex;
@@ -510,7 +536,6 @@ body {
 .card-text {
   font-size: 12px;
   color: rgb(82, 80, 80);
-  
 }
 
 .news_updates {
@@ -554,19 +579,19 @@ body {
   padding-bottom: 0px;
   font-size: 12px;
   margin: 0px !important;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
 }
 ._horezentolPosts {
-  background-color: rgb(25, 94, 95);
+  background-color: rgb(3, 60, 61);
   color: white;
   text-align: center;
   border-radius: 5px;
 }
 
 ._horezentolPosts img {
-  height: 100px !important;
+  height: 200px !important;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -581,8 +606,8 @@ body {
   margin: 0px;
   padding: 5px;
   font-size: 12px;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
 }
 #pills-tabContent {
@@ -653,7 +678,7 @@ body {
 
 /* footer styling */
 .site-footer {
-  background-color: rgb(14, 68, 69);
+  background-color: rgb(3, 60, 61);
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
@@ -682,7 +707,7 @@ body {
 }
 ._newsletter {
   width: 70%;
-  height: 80px;
+  height: 120px;
   background-color: rgb(14, 138, 138);
   margin: auto;
   margin-bottom: -40px;
@@ -712,10 +737,9 @@ body {
 }
 ._newsletter h5 {
   font-size: 1.5vw !important;
-  font-family: 'Montserrat';
-  font-family: 'Russo One';
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
   font-weight: normal !important;
-  
 }
 @media only screen and (max-width: 360px) {
   ._newsletter {
@@ -726,7 +750,10 @@ body {
     padding: 10px;
     flex-direction: column;
   }
-  ._verticalPosts{
+  ._horezentolPosts img{
+    height: 150px !important;
+  }
+  ._verticalPosts {
     height: 220px;
   }
   ._verticalPosts img {
@@ -893,13 +920,25 @@ body {
 }
 ._copyright {
   background-color: rgb(51, 49, 49);
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
+  font-weight: normal !important;
+  font-size: 12px;
 }
+._unorderList {
+  margin-top: 10%;
+ /* font-family: 'Teko' ; */
+font-family: 'Russo One';
+  font-weight: normal !important;
+  font-size: 12px;
+  font-size: 12px;
 
+}
 @media (max-width: 767px) {
   .social-icons li.title {
     display: block;
@@ -912,11 +951,12 @@ body {
   }
 }
 
+
 @media only screen and (max-width: 580px) {
   ._unorderList {
     width: 50% !important;
   }
-  ._footerBtns{
+  ._footerBtns {
     font-size: 10px !important;
   }
 }
